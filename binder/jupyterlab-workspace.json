@@ -3,63 +3,50 @@
     "file-browser-filebrowser:cwd": {
       "path": ""
     },
-    "dask-dashboard-launcher:individual-progress": {
-      "data": {
-        "route": "individual-progress",
-        "label": "Progress"
-      }
-    },
-    "dask-dashboard-launcher:individual-task-stream": {
-      "data": {
-        "route": "individual-task-stream",
-        "label": "Task Stream"
-      }
-    },
     "layout-restorer:data": {
       "main": {
         "dock": {
           "type": "split-area",
           "orientation": "horizontal",
           "sizes": [
-            0.5,
-            0.5
+            0.7047499212868628,
+            0.29525007871313735
           ],
           "children": [
             {
               "type": "tab-area",
               "currentIndex": 0,
               "widgets": [
-                "markdownviewer-widget:Welcome.md"
+                "notebook:01-Intro.ipynb"
               ]
             },
             {
               "type": "split-area",
               "orientation": "vertical",
               "sizes": [
-                0.67,
-                0.33
+                0.5092675144741934,
+                0.4907324855258066
               ],
               "children": [
                 {
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "dask-dashboard-launcher:individual-task-stream"
+                    "dask-dashboard-launcher:individual-workers"
                   ]
                 },
                 {
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "dask-dashboard-launcher:individual-progress"
+                    "dask-dashboard-launcher:individual-task-stream"
                   ]
                 }
               ]
             }
           ]
         },
-        "mode": "multiple-document",
-        "current": "markdownviewer-widget:Welcome.md"
+        "mode": "multiple-document"
       },
       "left": {
         "collapsed": false,
@@ -77,10 +64,22 @@
         "widgets": []
       }
     },
-    "markdownviewer-widget:Welcome.md": {
+    "notebook:01-Intro.ipynb": {
       "data": {
-        "path": "Welcome.md",
-        "factory": "Markdown Preview"
+        "path": "01-Intro.ipynb",
+        "factory": "Notebook"
+      }
+    },
+    "dask-dashboard-launcher:individual-workers": {
+      "data": {
+        "route": "individual-workers",
+        "label": "Workers"
+      }
+    },
+    "dask-dashboard-launcher:individual-task-stream": {
+      "data": {
+        "route": "individual-task-stream",
+        "label": "Task Stream"
       }
     },
     "dask-dashboard-launcher": {
